@@ -1,0 +1,19 @@
+# Hello World API Dependencies
+# Generated for CMMAI-48 - Hello World API
+
+# Core FastAPI framework
+fastapi>=0.104.0
+
+# ASGI server for production
+uvicorn[standard]>=0.24.0
+
+# Data validation and settings
+pydantic>=2.5.0
+
+# Optional: for enhanced functionality
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+httpx>=0.25.0
